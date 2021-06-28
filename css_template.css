@@ -1,0 +1,41 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #title{
+    font-size: 2em;
+    padding: 1vw;
+    text-align: center;
+    color: red
+  }
+  #board{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .slide{
+    width: calc(50% - 6px - 2vw);
+    padding: 1vw;
+    text-align: center;
+  }
+  .slide div{
+    margin-bottom: 3vh;
+  }
+  h2{
+    margin-bottom: 1vh;
+  }
+  .imageCollage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    justify-content: center;
+  }
+  .imageCollage img{
+    max-width: 15vw;
+    max-height: 15vh;
+    border: 10px solid blueviolet;
+    padding: 0.5vw;
+    border-image:   linear-gradient(160deg, yellow 0%, orange 25%, red 50%, orange 75%, yellow 100%) 5;
+  }
